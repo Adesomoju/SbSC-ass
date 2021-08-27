@@ -1,0 +1,67 @@
+<div>
+    <div class="welcome-board round-8 bg-blue space-between h-250 pad-xy-20 mb-4">
+        <div class="welcome-text">
+            <div class="big-text color-white mt-20 font-26 mb-20">
+                <strong>Your Schedule</strong>
+            </div>
+            <div class="color-white font-16 mb-20">All client consultations are available here. You can initiate
+                <br/> consultations for each client's procedure</div>
+            <div>
+                <button class="act-button">Add new schedule</button>
+            </div>
+        </div>
+        <div>
+            <img src="../../../../assets/images/yong-lady.svg" alt="">
+        </div>
+    </div>
+    <div class="parent">
+        <section class="left-sec">
+            <div class="calender-board h-400 round-8 bg-white pad-xy-20 mb-4"></div>
+
+            <div class="activities-board scrollable h-500 round-8 bg-white pad-xy-20 mb-4">
+                <div class="space-between mb-20">
+                    <div>
+                        <div class="color-dblue fw-bold font-18">Recent Activities</div>
+                        <div class="line"></div>
+                    </div>
+                    <div>
+                        <img class="pointer" src="../../../../assets/images/bell.svg" alt="">
+                    </div>
+                </div>
+                <app-activities></app-activities>
+
+            </div>
+
+        </section>
+
+        <section class="right-sec">
+            <div class="round-8 bg-white pad-xy-20 ">
+                <div class="space-between mb-20">
+                    <div>
+                        <div class="color-dblue fw-bold font-18">Thursday - 18th February, 2021</div>
+                        <div class="line"></div>
+                    </div>
+                    <div>
+                        <span class="color-grey mr-5">Show
+                            <strong class="color-blue">by Day</strong>
+                        </span>
+                        <img class="pointer" src="../../../../assets/images/drop-down.svg" alt="">
+                    </div>
+                </div>
+                <div class="ds-flex-X mb-20">
+                    <div class="mr-10">
+                        <img src="../../../../assets/images/img1.svg" alt="">
+                        <img class="overlap-left" src="../../../../assets/images/img2.svg" alt="">
+                        <img class="overlap-left" src="../../../../assets/images/img3.svg" alt="">
+                        <img class="overlap-left" src="../../../../assets/images/img4.svg" alt="">
+                    </div>
+                    <div class="color-grey font-13">You have 4 appointments scheduled</div>
+                </div>
+                <div>
+                    <app-patient-list></app-patient-list>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</div>

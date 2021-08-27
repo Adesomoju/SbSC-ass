@@ -1,0 +1,58 @@
+mat-sidenav-container {
+    height: 100%;
+    mat-nav-list{
+        width: 247px;
+        height: 100%;
+    }
+}
+
+.comp-name{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.list-txt{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.resize{
+    width: 24px;
+    height: 24px;
+}
+
+.prof-sec{
+    margin-top: 70%
+}
+
+.active-list-item {
+    background: linear-gradient(to right,  #fff 0%,#fff 2%, #1D2B4F 0%, #1D2B4F 100%) !important; 
+}
+
+.top-bar{
+    background: #FFFFFF;
+    justify-content: flex-end;
+    position: absolute;
+    height: 8%;
+}
+
+.parent-container{
+    height: 100%;
+}
+
+.body-container{
+    // height: 92%;
+    top: 8%;
+    position: relative;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    background: rgba(107, 169, 183, 0.05);
+}
+

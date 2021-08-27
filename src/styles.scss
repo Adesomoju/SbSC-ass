@@ -1,1 +1,181 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Nunito+Sans:wght@900&display=swap');
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mrb-5{
+    margin-bottom: 5px;
+}
+.mb-4{
+    margin-bottom: 4%;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mr-25{
+    margin-right: 25px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.m-auto{
+    margin: auto;
+}
+
+.color-white{
+    color: #FFFFFF;
+}
+.color-dblue{
+    color: #1D2B4F;
+}
+.color-blue{
+    color: #1565D8;
+}
+.color-grey{
+    color: #8692A6;
+}
+.bg-blue{
+    background: #1565D8;
+}
+.bg-dblue{
+    background: #1D2B4F;
+}
+.bg-lblue{
+    background: #E5E5E5;
+}
+.bg-white{
+    color: #FFFFFF;
+}
+.round-8{
+    border-radius: 8px;
+}
+
+.hide-flowX{
+    overflow-x: hidden !important;
+}
+.hide-flowY{
+    overflow-y: hidden !important;
+}
+.pointer{
+    cursor: pointer;
+}
+.ds-flex{
+    display: flex;
+}
+.ds-flex-X{
+    display: flex;
+    align-items: center;
+}
+.space-even{
+    display: flex;
+    justify-content: space-evenly;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+.space-between-x{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-500{
+    height: 500px;
+}
+.h-400{
+    height: 400px;
+}
+.h-360{
+    height: 360px;
+}
+.h-300{
+    height: 300px;
+}
+.h-250{
+    height: 250px;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+.fw-800{
+    font-weight: 800;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.font-26{
+    font-size: 26px;
+    line-height: 31px;
+}
+.font-18{
+    font-size: 18px;
+    line-height: 22px;
+}
+.font-16{
+    font-size: 16px;
+    line-height: 19px;
+}
+.font-14{
+    font-size: 14px;
+    line-height: 17px;
+}
+.font-13{
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.pad-xy-20{
+    padding: 20px;
+}
+
+.line{
+    width: 48px;
+    border: 3px solid #1565D8;
+    margin: 16px 0px;
+    background: #1565D8
+}
+
+.scrollable{
+    overflow-y: scroll;
+}
+.act-button{
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    background: #4780D2;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}

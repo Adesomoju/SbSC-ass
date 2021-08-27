@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Health-Lite": {
+    "sbsc": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Health-Lite",
+            "outputPath": "dist/sbsc",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,6 +28,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -65,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Health-Lite:build"
+            "browserTarget": "sbsc:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Health-Lite:build:production"
+              "browserTarget": "sbsc:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Health-Lite:build"
+            "browserTarget": "sbsc:build"
           }
         },
         "test": {
@@ -91,6 +93,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -113,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Health-Lite:serve"
+            "devServerTarget": "sbsc:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Health-Lite:serve:production"
+              "devServerTarget": "sbsc:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "Health-Lite"
+  "defaultProject": "sbsc"
 }

@@ -1,0 +1,136 @@
+<div class="parent">
+    <section class="left-sec">
+
+        <div class="welcome-board round-8 bg-blue ds-flex pad-xy-20 mb-4">
+            <div class="welcome-text">
+                <div class="big-text color-white font-26 mb-20">Welcome,
+                    <strong>Dr. Fayemi David</strong>
+                </div>
+                <div class="color-white font-16 mb-20">You have 16 new appointments and there are currently 23,445 patients in the waiting room. Have a nice day
+                    at work!</div>
+                <div>
+                    <button class="act-button">View your appointment</button>
+                    <button class="act-button">Go to waiting room</button>
+                </div>
+            </div>
+            <div>
+                <img src="../../../../assets/images/young-nurse.svg" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="figures-board mb-4 space-between">
+            <div class="bg-white fig-box round-8 pad-xy-20">
+                <div class="space-between-x mb-10">
+                    <img src="../../../../assets/images/blue-pers.svg" alt="">
+                    <div>
+                        <span class="color-dblue font-14 fw-bold mr-5">All Times</span>
+                        <img class="pointer" src="../../../../assets/images/drop-down.svg" alt="">
+                    </div>
+                </div>
+                <div class="color-dblue font-26 fw-800 mrb-5">12,345</div>
+                <div class="color-grey font-16 mb-10">Total Patients</div>
+                <div>
+                    <img src="../../../../assets/images/arrow-down.svg" alt="">
+                    <span class="color-dblue font-14">5% less than last month</span>
+                </div>
+            </div>
+
+            <div class="bg-white fig-box round-8 pad-xy-20">
+                <div class="space-between-x mb-10">
+                    <img src="../../../../assets/images/org-calender.svg" alt="">
+                    <div>
+                        <span class="color-dblue font-14 fw-bold mr-5">Today</span>
+                        <img class="pointer" src="../../../../assets/images/drop-down.svg" alt="">
+                    </div>
+                </div>
+                <div class="color-dblue font-26 fw-800 mrb-5">25</div>
+                <div class="color-grey font-16 mb-10">Appointments</div>
+                <div>
+                    <img src="../../../../assets/images/arrow-up.svg" alt="">
+                    <span class="color-dblue font-14">15% more than yesterday</span>
+                </div>
+            </div>
+
+            <div class="bg-white fig-box round-8 pad-xy-20">
+                <div class="space-between-x mb-10">
+                    <img src="../../../../assets/images/red-clock.svg" alt="">
+                    <div>
+                        <span class="color-dblue font-14 fw-bold mr-5">Today</span>
+                        <img class="pointer" src="../../../../assets/images/drop-down.svg" alt="">
+                    </div>
+                </div>
+                <div class="color-dblue font-26 fw-800 mrb-5">21,045</div>
+                <div class="color-grey font-16 mb-10">Waiting Room</div>
+                <div>
+                    <img src="../../../../assets/images/arrow-up.svg" alt="">
+                    <span class="color-dblue font-14">35% less than yesterday</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="patient-board bg-white round-8 pad-xy-20 mb-4">
+            <div class="space-between mb-20">
+                <div>
+                    <div class="color-dblue fw-bold font-18">Your next patients</div>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <span class="color-blue font-14 mr-5">View All</span>
+                    <img class="pointer" src="../../../../assets/images/arrow-right.svg" alt="">
+                </div>
+            </div>
+            <app-patient-list></app-patient-list>
+        </div>
+
+        <div class="bar-chart-board round-8 bg-white pad-xy-20 mb-4">
+            <div class="space-between mb-20">
+                <div>
+                    <div class="color-dblue fw-bold font-18">Apointment Staticstics</div>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <span class="color-grey mr-5">Show
+                        <strong class="color-blue">by Month</strong>
+                    </span>
+                    <img class="pointer" src="../../../../assets/images/drop-down.svg" alt="">
+                </div>
+            </div>
+            <app-appointment-chart></app-appointment-chart>
+        </div>
+    </section>
+
+    <section class="right-sec">
+        <div class="calender-board h-400 round-8 bg-white pad-xy-20 mb-4"></div>
+        <div class="round-chart-board h-360 round-8 bg-white pad-xy-20 mb-4">
+            <div class="space-between mb-20">
+                <div>
+                    <div class="color-dblue fw-bold font-18">Patient by Gender</div>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <span class="color-grey mr-5">This
+                        <strong class="color-blue">Month</strong>
+                    </span>
+                    <img class="pointer" src="../../../../assets/images/drop-down.svg" alt="">
+                </div>
+            </div>
+            <app-gender-chart></app-gender-chart>
+        </div>
+
+        <div class="activities-board scrollable h-500 round-8 bg-white pad-xy-20 mb-4">
+            <div class="space-between mb-20">
+                <div>
+                    <div class="color-dblue fw-bold font-18">Activities</div>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <img class="pointer" src="../../../../assets/images/bell.svg" alt="">
+                </div>
+            </div>
+            <app-activities></app-activities>
+        </div>
+
+    </section>
+</div>
